@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+*{
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body{
+  padding: 0,116px;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.navi{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 180px;
+  width: 70%;
+  
+}
+.navi a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  font-size: Open Sans;
+  font-weight: 500;
+}
+.navi :hover{
+  color: green;
+  font-weight: 900;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+  position: relative;
+  
+}
+.green-part{
+  height: 557px;
+  width: 460px;
+  background-color: #A3CB38;
+  position: absolute;
+  right: 70px;
+  top: -179px;
+  border-radius: 0 0 10px 0;
+
+}
+.text{
+  margin-left: 75px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  text-align: left;
+  position: absolute;
+  font-family: Ubuntu;
+  font-weight: 400;
+  width: 536px;
+}
+.text h1{
+  font-size: 50px;
+}
+.text p{
+  
+  font-size: 20px;
+  
+}
+.ima{
+ position: relative;
+ margin-top: 5%;
+ margin-right: 7%;
+ top: -100px;
+}
+.but{
+  width: 150px;
+  height:50px;
+  text-align: center;
+  background-color: rgb(125, 192, 57);
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.but p{
+  color: white;
+  margin-top: 12px;
+} 
+/* My Main Hustle starts  */
+#education{
+  /* background: pink; */
+  display: flex;
+}
+
+#education>h1{
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.education-text{
+  /* background-color: rgb(30, 214, 214); */
+  max-width: 550px;
+  margin-top: 1%;
+  margin-left: 200px;
+}
+
+h3{
+  color: #A3CB38;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 18px;
+}
+
+.dotbg{
+  position: absolute;
+  background-image: url(./assets/bg.png);
+  min-height: 550px;
+  width: 636px;
+  background-repeat: no-repeat;
+  left: 0;
+  z-index: -1;
+}
+
+/* My Work starts */
+
+#mywork{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#mywork>h2{
+  font-size: 52px;
+
+}
+
+#mywork>p{
+  max-width: 700px;
+  text-align: center;
+}
+
+.mywork-box{
+  /* background-color: aquamarine; */
+  justify-content: space-evenly;
+  display: flex;
+  width: 100vw;
+}
+
+.mywork-card{
+  max-width: 224px;
+  min-height: 323px;
+  align-items: flex-start;
+}
+
+.mywork-card>h3{
+  font-size: 16px;
+}
+
+h5{
+  font-size: 14px;
+}
+
+.card-green{
+  position: relative;
+  height: 45px;
+  width: 30px;
+  background-color: #A3CB38;
+  top: 40px;
+  left: 10px;
+}
+
+
+/* My Work ends  */
+/* my proud start */
+.proud-overall-cont{
+  margin-top: 90px;
+  margin-left: 15px;
+  min-width: 593px;
+  display: flex;
+}
+
+.proud-text-cont{
+  height: 424px;
+  width: 958px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+hr{
+  background-color: #A3CB38;
+  height: 4px;
+  width: 30px;
+  position: relative;
+  left: -120px;
+}
+
+.proud-text{
+  max-width: 272px;
+  margin-right: 70px;
+  display: block;
+}
+#last-proud-text{
+  justify-self: flex-start;
+}
+.proud-cont{
+  position: absolute;
+  right: 70px;
+  max-width: 492px;
+  min-height: 424px;
+  background-color: #A3CB38;
+
+}
+.proud-cont h1{
+  font-size: 100px;
+  line-height: 100px;
+}
+.proud-cont>h1{
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 136px;
+  color: white;
+}
+/* My proud end */
+
+/* My hobbie start */
+.hobbies-overall{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.hobbie-text{
+  max-width: 376px;
+  
+  
+}
+.hobbie-text h1{
+  color: #A3CB38;
+  font-size: 100px;
+  line-height: 100px;
+  display: block;
+  margin-left: 90px;
+}
+.hobbie-text p{
+margin-top: 28px;
+margin-left: 90px;
+}
+.hobby-img{
+  display: flex;
+  flex-direction: column;
+  margin-left: 385px;
+  margin-top: 40px;
+  
+}
+.hobby-img-1{
+  align-items: flex-end;
+  flex-wrap: wrap;
+  display: flex;
+}
+.hobby-img-2{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* My hobbie end */
+/* Contact start */
+.contact-cont-over{
+  display: flex;
+}
+.contact-cont{
+  position: absolute;
+  left: 0;
+  height: 300px;
+  width: 600px;
+  background-color: #A3CB38;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+.contact-cont>h2{
+ margin-left: 190px;
+ margin-top: 30px;
+    color: white;
+    margin-right: 282px;
+    font-size: 54px;
+    display: block;
+    position: relative;
+    padding: 0;
+
+}
+.contact-cont>a{
+   margin-left: 190px;
+   margin-top: 10px;
+    color: white;
+    margin-right: 282px;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 16px;
+    position: relative;
+}
+.social-me-cont{
+  width: 103px;
+    height: 107px;
+    margin-top: 189px;
+    margin-left: 285px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.social-me-cont>img{
+  position: relative;
+  width: 20px;
+
+  
+}
+.footer p{
+  text-align: right;
+    bottom: 0;
+}
+
+
+
+
+
+/* Contact end */
